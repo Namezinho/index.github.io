@@ -1,0 +1,71 @@
+/* Seletor por elemento HTML */
+body {
+    background-color: #a3ffc4;
+
+}
+p {
+    font-family: 'Caviar Dreams', Arial, Helvetica, sans-serif;
+}
+h2 {
+    background-color: #7ad49c;
+
+}
+h3 {
+    background-color: #7ad49c;
+    font-family: 'Gilgan', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: underline dotted;
+
+}
+h4 {
+    background-color: #7ad49c;
+    font-family: 'Gilgan', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: underline dashed;
+
+}
+/* Seletor por ID; */
+#name {
+    background-color: #7ad49c;
+    font-family: 'Caviar Dreams', Arial, Helvetica, sans-serif;
+    font-style: unset;
+
+}
+#desc{
+    font-style: italic;
+}
+#desc1{
+    font-style: italic;
+}
+#efect{
+    color: #42d5fd;
+}
+
+/*Seletor por classe;*/
+.title {
+    font-family: 'Gilgan', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+
+/*Seletor por atributo;*/
+a[href="https://www.linkedin.com/in/kauan-moraes-gon%C3%A7alves-b890a1232?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3B74%2BdIXa2TNiJg4odvhnsqA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile"]{
+    background-color: #42d5fd;
+
+}
+a[href="mailto:kauangoncalves@alunos.utfpr.edu.br"]{
+    background-color: #42d5fd;
+
+}
+
+/*Seletor por pseudo-classe;*/
+a:hover{
+    color:beige;
+}
+
+/*Seletor universal.*/
+*{
+    color:rgb(16, 1, 1);
+}
